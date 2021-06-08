@@ -98,9 +98,8 @@ body {
 
 .datosaqua__redes {
     color: black;
-    font-family: "Advent Pro", sans-serif;
+    font-family: "Courier New", Courier, monospace;
     font-size: 16pt;
-    justify-items: end;
 }
 
 .datosaqua__redes--lista {
@@ -126,6 +125,8 @@ body {
 
 .sobreaqua__lista {
     display: flex;
+    font-family: "Advent Pro", sans-serif;
+    font-size: 15pt;
     justify-content: space-evenly;
     margin-top: 30px;
     padding: 20px;
@@ -147,4 +148,6 @@ body {
     border-style: outset;
     background-color: #aee1f9;
     background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+    font-family: "Advent Pro", sans-serif;
+    font-size: 15pt;
 }

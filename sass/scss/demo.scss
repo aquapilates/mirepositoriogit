@@ -7,6 +7,7 @@ $largo:400px;
 
 /*ESTILOS*/
 
+
 p {
     font-family: "Advent Pro", sans-serif;
     font-size: 20px;
@@ -110,7 +111,7 @@ background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
 }
 .datosaqua__redes {
     color: black;
-    font-family: "Advent Pro", sans-serif;
+    font-family:'Courier New', Courier, monospace;
     font-size: 16pt;
 }
 .datosaqua__redes--lista {
@@ -135,6 +136,8 @@ background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
 }
 .sobreaqua__lista {
     display: flex;
+    font-family: "Advent Pro", sans-serif;
+    font-size: 15pt;
     justify-content: space-evenly;
     margin-top: 30px;
     padding: 20px;
@@ -154,4 +157,6 @@ background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
     border-style: outset;
     background-color: #aee1f9;
     background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
+    font-family: "Advent Pro", sans-serif;
+    font-size: 15pt;
 }
