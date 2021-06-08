@@ -15,61 +15,36 @@
 </head>
 
 <body class="body">
-    <div class="inicio">
-        <a href="../index.html">
-            <img src="../imagenespilates/aqua.jpg" class="inicio__imagen" alt="logo" title="Inicio"></a>
-    </div>
-    <nav class="navbar navbar-expand-sm justify-content-center">
-        <ul class="navbar-nav">
-            <li class="nav-item">
+    <div class="container">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand" href="">
+                <img src="./imagenpilates/aqua.jpg" width="30" height="30" class="d-inline-block align-top" alt="logo">
+                AQUA
+            </a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="/index.html">Inicio</a>
                 <a class="nav-link" href="../secciones/ejercicios.html">Ejercicios</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="../secciones/metodopilates.html">Metodo pilates</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="../secciones/sobreaqua.html">Sobre aqua</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="../secciones/galeria.html">Galeria</a>
-            </li>
-        </ul>
-    </nav><br>
-    <div class="container-fluid">
-        <div class="row justify-content-center">
-            <section class="col-xs-8">
-                <h2>Ejercicios </h2>
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                    </ol>
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <video src="../imagenespilates/video1.mp4"class="d-block w-80"controls ></video>
-                        </div>
-                        <div class="carousel-item">
-                            <video src="../imagenespilates/video2.mp4" class="d-block w-80" controls ></video>
-                        </div>
-                        <div class="carousel-item">
-                            <video src="../imagenespilates/video3.mp4" class="d-block w-80" controls></video>
-                        </div>
-                        <div class="carousel-item">
-                            <video src="../imagenespilates/video4.mp4" class="d-block w-80" controls></video>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+            </div>
+        </div>
+        </nav>
+        </div>
+        <br>
+        <div class="container">
+            <h2>Ejercicios</h2>
+                <div class="row align-items-center">
+                  <div class="col-sm-6"> <video src="../imagenpilates/video1.mp4" controls width="500"></video></div>
+                  <div class="col-sm-6"> <video src="../imagenpilates/video2.mp4" controls width="500"></video></div>
+                  <div class="w-100"></div>
+                  <div class="col-sm-6"><video src="../imagenpilates/video3.mp4" controls width="500"></video></div>
+                  <div class="col-sm-6"><video src="../imagenpilates/video4.mp4" controls width="500"></video></div>
                 </div>
-            </section>
         </div>
         <div class="row">
             <section class="col">

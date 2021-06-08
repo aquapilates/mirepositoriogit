@@ -2,33 +2,6 @@
 @import url(_responsive.scss);
 /*VARIABLES*/
 /*ESTILOS*/
-nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-nav ul li {
-    color: #026550;
-    font-family: "Advent Pro", sans-serif;
-    font-size: 25px;
-    list-style-type: none;
-    margin-top: 30px;
-    padding: 10px;
-    transition: all 2s;
-}
-nav ul li :hover {
-    width: 300px;
-    background-image: linear-gradient(#aaedcc, #026550);
-}
-nav ul li a {
-    color: #026550;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #fff;
-}
-
 p {
     font-family: "Advent Pro", sans-serif;
     font-size: 20px;
@@ -66,7 +39,6 @@ h2 {
     color: #026550;
     font-family: "Advent Pro", sans-serif;
     font-size: 40pt;
-    text-align: center;
 }
 
 table {
@@ -102,29 +74,6 @@ body {
 }
 
 /*BEM*/
-.inicio {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.inicio__imagen {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 200px;
-    height: 150px;
-    border-radius: 30px;
-    border-style: double;
-    border-width: 10px;
-    border-color: #fff;
-    transition: all 1s;
-}
-
-.inicio__imagen:hover {
-    width: 250px;
-}
-
 .contactate {
     margin: 20px;
     padding-top: 30px;
@@ -151,17 +100,18 @@ body {
     color: black;
     font-family: "Advent Pro", sans-serif;
     font-size: 16pt;
-    text-align: right;
+    justify-items: end;
 }
 
 .datosaqua__redes--lista {
     list-style-type: none;
+    vertical-align: baseline;
 }
 
 .sobreaqua {
     margin: 40px;
     padding: 30px;
-    border-radius: 4px;
+    border-radius: 70px;
     border-style: outset;
     background-color: #aee1f9;
     background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
@@ -171,6 +121,7 @@ body {
     color: #026550;
     font-family: "Advent Pro", sans-serif;
     font-size: 40pt;
+    text-align: center;
 }
 
 .sobreaqua__lista {
@@ -192,8 +143,8 @@ body {
 }
 
 .clases__lista {
+    border-radius: 30px;
     border-style: outset;
-    border-width: 2px black;
     background-color: #aee1f9;
     background-image: linear-gradient(315deg, #aee1f9 0%, #f6ebe6 74%);
 }
